@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="THIS PHONE CODE"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tvTrackingMsg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="TRACKING CODE HERE"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp" />
+
+    <ToggleButton
+        android:id="@+id/tbTrackOnOff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="activateTracking"
+        android:textOff="TRACKING OFF"
+        android:textOn="TRACKING ON" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <CheckBox
+        android:id="@+id/cbStartBoot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="bootStart"
+        android:text="Run on Phone Restart" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp" />
+
+    <Button
+        android:id="@+id/btChangeCode"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="process"
+        android:text="MAP a PHONE" />
+
+</LinearLayout>
